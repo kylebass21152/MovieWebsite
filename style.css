@@ -10,14 +10,24 @@
     margin: 0;
     padding: 0;
     overflow: hidden;
+    background-color: #B5CAE9;
 }
 
 li {
     float: left;
 }
 
-a {
+li a {
     display: block;
-    padding: 8px;
     background-color: #B5CAE9;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    color:black;
+    font-family: "Staatliches", sans-serif;
 }
+
+li a:hover {
+    background-color: #3B69AD;
+    color:white;
+  }
