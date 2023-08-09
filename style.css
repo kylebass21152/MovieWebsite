@@ -1,8 +1,14 @@
+body{
+    background-color: #B5CAE9;
+}
+
 #website_heading {
+    position:relative;
     color:black;
     font-family: "Staatliches", sans-serif;
     font-size: 40px;
     background-color: #B5CAE9;
+    left: 69px;
 }
 
 #NavigationBar {
@@ -10,7 +16,7 @@
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: #B5CAE9;
+    background-color: #88A5D1;
 }
 
 li {
@@ -19,7 +25,7 @@ li {
 
 li a {
     display: block;
-    background-color: #B5CAE9;
+    background-color: #88A5D1;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
@@ -30,4 +36,43 @@ li a {
 li a:hover {
     background-color: #3B69AD;
     color:white;
-  }
+}
+
+#HeroImage{
+    background-color: black;
+}
+
+li a:active {
+    background-color: #3B69AD;
+ }
+
+#HeroImage{
+    background-image: url(https://upload.wikimedia.org/wikipedia/commons/thumb/4/49/A_black_image.jpg/640px-A_black_image.jpg);
+    background-position: right bottom, left top;
+    background-repeat: no-repeat, repeat;
+    padding: 15px;
+}
+#HeroDesc{
+    position:absolute;
+    color:#B5CAE9;
+    font-family: "Staatliches", sans-serif;
+    font-size: 64px;
+    left:1100px;
+    top:200px;
+}
+.MovieListGrid{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    padding: 100px;
+    column-gap:100px;
+    row-gap:66px;
+}
+.MovieListGridItem{
+    padding: 20px;
+    font-size: 30px;
+    text-align: left;
+}
+.MovieListGridItemDesc{
+    font-family: "Staatliches", sans-serif;
+    font-size: 40px;
+}
