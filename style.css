@@ -8,7 +8,7 @@ body{
     font-family: "Staatliches", sans-serif;
     font-size: 40px;
     background-color: #B5CAE9;
-    left: 69px;
+    text-align: center;
 }
 
 #NavigationBar {
@@ -27,7 +27,7 @@ li a {
     display: block;
     background-color: #88A5D1;
     text-align: center;
-    padding: 14px 16px;
+    padding: 14px;
     text-decoration: none;
     color:black;
     font-family: "Staatliches", sans-serif;
@@ -38,19 +38,19 @@ li a:hover {
     color:white;
 }
 
-#HeroImage{
-    background-color: black;
-}
-
 li a:active {
     background-color: #3B69AD;
  }
 
-#HeroImage{
+#HeroStuff{
     background-image: url(https://upload.wikimedia.org/wikipedia/commons/thumb/4/49/A_black_image.jpg/640px-A_black_image.jpg);
     background-position: right bottom, left top;
     background-repeat: no-repeat, repeat;
     padding: 15px;
+    background-color: black;
+    width:100%;
+    box-shadow: 0px 0px 30px rgb(221, 137, 10);
+    overflow: hidden;
 }
 #HeroDesc{
     position:absolute;
@@ -66,6 +66,7 @@ li a:active {
     padding: 100px;
     column-gap:100px;
     row-gap:66px;
+    align-content: center;
 }
 .MovieListGridItem{
     padding: 20px;
