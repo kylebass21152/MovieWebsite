@@ -57,7 +57,7 @@ li a:active {
     font-family: "Staatliches", sans-serif;
     font-size: 64px;
     left:1200px;
-    top:200px;
+    top:400px;
 }
 .MovieListGrid{
     display: grid;
@@ -82,8 +82,13 @@ li a:active {
 }
 #Logo{
     width:15%;
-    position:relative;
+    position:absolute;
     left:15px;
-    top:150px;
+    top:0px;
     z-index: 1;
-}
+    margin-top: 0px; 
+    margin-bottom: 0px; 
+    margin-left: 0px; 
+    margin-right: 0px;
+    padding: 0;
+} 
